@@ -1,12 +1,12 @@
 body {
     padding-left: 10%;
     padding-right:10%;
-    background-color: #efefef;
+    background-color: #000000;
   }
   
   h1 {
     font-size: 3em;
-    color: #D97D51;
+    color: #ffffff;
     font-family: Helvetica;
   }
   
@@ -52,7 +52,7 @@ body {
   }
   
   #contact {
-    border: 1px solid black;
+    border: 1px solid rgb(243, 26, 26);
     padding: 10px;
     margin: 10px;
     font-style: italic;
@@ -61,7 +61,7 @@ body {
   
   /* responsive design */
   #content {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 0, 0);
     padding: 10px;
     margin: 10px;
     font-style: italic;
