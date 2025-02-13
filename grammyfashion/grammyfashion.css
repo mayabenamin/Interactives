@@ -1,0 +1,77 @@
+body {
+    padding-left: 10%;
+    padding-right:10%;
+    background-color: #a2a1a1;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #000000;
+    font-family: Garamond;
+  }
+  
+  div {
+    border: 1px solid black;
+  
+  }
+  
+  div: has(>blockquote) 
+  {background-color: #embeded;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 5px;}
+  
+  
+  
+  #byline {
+    font-size: 1.1em;
+  }
+  
+  p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding-bottom: 20px;
+  }
+  
+  .img-container {
+    width: 100%;
+  }
+  
+  img {
+    margin: auto;
+    display: block;
+  }
+  
+  .cutline {
+    font-size: 12px;
+  }
+  
+  .attribution {
+    margin: 25px;
+    font-size: 18px;
+  }
+  
+  #contact {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  /* responsive design */
+  #content {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-style: italic;
+    text-align: center;
+    width: 50%;
+  
+  }
+  
+  @media (orientation: portrait) {
+    #content {
+      width: 100%;
+    }
+  }
