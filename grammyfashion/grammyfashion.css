@@ -15,13 +15,6 @@ body {
   
   }
   
-  div: has(>blockquote) 
-  {background-color: #embeded;
-  margin: 10px auto;
-  padding: 15px;
-  border-radius: 5px;}
-  
-  
   
   #byline {
     font-size: 1.1em;
